@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+[dev-packages]
+isort = "*"
+python-decouple = "*"
+flake8 = "*"
+flake8-tabs = "*"
+black = {extras = ["jupyter"], version = "*"}
+mypy = "*"
+pre-commit = "*"
+pdoc3 = "*"
+mkdocs = "*"
